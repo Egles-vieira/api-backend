@@ -14,9 +14,9 @@ app.use((req, res, next) => {
 
 const pool = new Pool({
   user: 'appuser',
-  host: 'dbaas-db-9525861-do-user-14245463-0.d.db.ondigitalocean.com',
+  host: '',
   database: 'appdb',
-  password: 'SenhaForte123',
+  password: '',
   port: 25060,
   ssl: { rejectUnauthorized: false },
 });
